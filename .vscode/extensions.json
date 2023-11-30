@@ -1,0 +1,7 @@
+{
+	// List of recomended extensions.
+	"recommendations": [
+		"bradlc.vscode-tailwindcss",
+		"hediet.vscode-drawio",
+	]
+}

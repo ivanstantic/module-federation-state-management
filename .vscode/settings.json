@@ -1,0 +1,28 @@
+{
+  // Editor
+  "[javascript]": {
+      "editor.tabSize": 2
+  },
+  "[css]": {
+      "editor.tabSize": 2
+  },
+  "[html]": {
+      "editor.tabSize": 4
+  },
+
+  /*
+  TailwindCSS suppport
+   * Requires Tailwind CSS IntelliSense vscode plugin to be installed (bradlc.vscode-tailwindcss).
+  */
+  "files.associations": {
+      "*.css": "css"
+  },
+  "css.customData": [".vscode/tailwind.json"],
+  "tailwindCSS.classAttributes": [
+      "class",
+      "className",
+      ".*Style*", // Add ".*Styles*" (or whatever matches your naming scheme)
+      ".*Styles*" // Add ".*Styles*" (or whatever matches your naming scheme)
+  ]
+
+}
